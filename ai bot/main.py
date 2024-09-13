@@ -31,7 +31,6 @@ async def image(ctx):
             await attachement.save(file_path)
             await ctx.send("done!!")
             name, score = detect_hp("converted_keras/keras_model.h5", "converted_keras/labels.txt", file_path)
-            #name, score = ("Buckbeak",99)
             await ctx.send(f"This is {name.strip()}, i am %{int(score*100)} sure of it.")
             if name.strip() == "Buckbeak":
                 await ctx.send("""Buckbeak is a male hippogriff. He lived with Hagrid during Harry's third year. He was later sentenced to death when he attacked Draco Malfoy after being taunted and provoked. With the help of Harry, Hermione and her Time-Turner he escaped execution and became under the care of Sirius Black.
