@@ -21,3 +21,4 @@ Let's get to know The Magical Bot better now ✈
               ↓
               ↓
 
+![A scene of our bot working!](file:///D:/belgeler/ppro/hp/working.JPG)
